@@ -6,7 +6,7 @@
 
 		"texts" : {
 			"name" : "Lysander",
-			"biography" : "Necromancers attacked Lysander Grpyhonheart's family when he was a child, killing his parents and separating him from his siblings. He was wounded during the attack, and paralyzed for several years. A childhood of impotence has driven this young man to perform great deeds that have culminated in his founding of the Kingdom of Palaedra.",
+			"biography" : "Necromancers attacked Lysander Gryphonheart's family when he was a child, killing his parents and separating him from his siblings. He was wounded during the attack, and paralyzed for several years. A childhood of impotence has driven this young man to perform great deeds that have culminated in his founding of the Kingdom of Palaedra.",
 			"specialty" : {
 				"description" : "Increases the speed of Pikemen or Halberdiers by 1 and their Attack and Defense skills for each level attained after 1st level.",
 				"tooltip" : "Creature Bonus: Pikemen",
