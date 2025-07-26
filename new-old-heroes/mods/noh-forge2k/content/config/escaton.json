@@ -4,17 +4,16 @@
 		"female" : false,
 		"special" : false,
 
-	"texts" :
-    {
-      "name" : "Escaton",
-      "biography" : "Escaton was an agent of the Ancients. Since the Kreegans had arrived on Enroth during the Night of Shooting Stars, Escaton had been tasked with destroying the planet to get rid of the foul creatures. He imprisoned the four elemental lords and used the power of the Elemental Planes to attempt to tear the planet apart.",
-      "specialty" :
-      {
-		"description" : "Starts with Expert Wisdom. Casts Expert Armageddon. Allied troops are immune to Armageddon.",
-		"tooltip" : "Mutli-bonus: Doombringer",
-        "name" : "Doombringer"
-      }
-    },
+		"texts" : {
+			"name" : "Escaton",
+			"biography" : "Escaton was an agent of the Ancients. Since the Kreegans had arrived on Enroth during the Night of Shooting Stars, Escaton had been tasked with destroying the planet to get rid of the foul creatures. He imprisoned the four elemental lords and used the power of the Elemental Planes to attempt to tear the planet apart.",
+			"specialty" : {
+				"description" : "Starts with Expert Wisdom. Casts Expert Armageddon. Allied troops are immune to Armageddon.",
+				"tooltip" : "Mutli-bonus: Doombringer",
+				"name" : "Doombringer"
+			}
+		},
+
 		"images" : {
 			"specialtySmall" : "Un32Arma",
 			"specialtyLarge" : "Un44Arma",

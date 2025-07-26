@@ -2,7 +2,7 @@
 	"name" : "NOH - Forge2k Heroes",
 	"description" : "Adds Heroes to Forge2k.",
 	"modType" : "Heroes",
-	"version" : "",
+	"version" : "1.6.4",
 	"author" : "Aphra",
 	"contact" : "",
 	"keepDisabled" : true,

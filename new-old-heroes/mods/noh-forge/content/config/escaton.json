@@ -3,17 +3,16 @@
 		"class" : "cyborg",
 		"female" : false,
 		"special" : false,
-	"texts" :
-    {
-      "name" : "Escaton",
-      "biography" : "Escaton was an agent of the Ancients. Since the Kreegans had arrived on Enroth during the Night of Shooting Stars, Escaton had been tasked with destroying the planet to get rid of the foul creatures. He imprisoned the four elemental lords and used the power of the Elemental Planes to attempt to tear the planet apart.",
-      "specialty" :
-      {
-		"description" : "Starts with Expert Wisdom. Casts Expert Armageddon. Allied troops are immune to Armageddon.",
-		"tooltip" : "Mutli-bonus: Doombringer",
-        "name" : "Doombringer"
-      }
-    },
+
+		"texts" : {
+			"name" : "Escaton",
+			"biography" : "Escaton was an agent of the Ancients. Since the Kreegans had arrived on Enroth during the Night of Shooting Stars, Escaton had been tasked with destroying the planet to get rid of the foul creatures. He imprisoned the four elemental lords and used the power of the Elemental Planes to attempt to tear the planet apart.",
+			"specialty" : {
+				"description" : "Starts with Expert Wisdom. Casts Expert Armageddon. Allied troops are immune to Armageddon.",
+				"tooltip" : "Mutli-bonus: Doombringer",
+				"name" : "Doombringer"
+			}
+		},
 
 		"images" : {
 			"specialtySmall" : "Un32Arma",
@@ -22,26 +21,31 @@
 			"small" : "EscatonSmall"
 		},
 
-	"skills":
-	[
-		{ "skill" : "wisdom", "level": "expert" },
-		{ "skill" : "interference", "level": "basic" }
-	],
-    
-	"specialty" : {
-		"bonuses" : {
-			"armageddonSpell" :	{
-				"subtype" : "spell.armageddon",
-				"type" : "SPELL",
-				"val" : 3,
-				"valueType" : "INDEPENDENT_MAX"
+		"skills" : [
+			{
+				"skill" : "wisdom",
+				"level" : "expert"
 			},
-			"armageddonImmune" :	{
-				"subtype" : "spell.armageddon",
-				"type" : "SPELL_IMMUNITY",
-				"val" : 0,
-				"valueType" : "BASE_NUMBER",
-				"addInfo" : 1
+			{
+				"skill" : "interference",
+				"level" : "basic"
+			}
+		],
+
+		"specialty" : {
+			"bonuses" : {
+				"armageddonSpell" : {
+					"subtype" : "armageddon",
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"armageddonImmune" : {
+					"subtype" : "armageddon",
+					"type" : "SPELL_IMMUNITY",
+					"val" : 0,
+					"valueType" : "BASE_NUMBER",
+					"addInfo" : 1
 				}
 			}
 		},
